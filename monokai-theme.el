@@ -5727,8 +5727,10 @@ Also affects 'linum-mode' background."
       (,monokai-256-class (:foreground ,monokai-256-green))))
 
    `(web-mode-html-attr-name-face
-     ((,monokai-class (:foreground ,monokai-blue))
-      (,monokai-256-class (:foreground ,monokai-256-blue))))
+     ((,monokai-class (:foreground ,monokai-green
+                                    :slant italic))
+      (,monokai-256-class (:foreground ,monokai-256-green
+                                    :slant italic))))
 
    `(web-mode-html-attr-custom-face
      ((,monokai-class (:inherit web-mode-html-attr-name-face))
@@ -5747,8 +5749,8 @@ Also affects 'linum-mode' background."
       (,monokai-256-class (:foreground ,monokai-256-yellow))))
 
    `(web-mode-html-tag-face
-     ((,monokai-class (:foreground ,monokai-green))
-      (,monokai-256-class (:foreground ,monokai-256-green))))
+     ((,monokai-class (:foreground ,monokai-red))
+      (,monokai-256-class (:foreground ,monokai-256-red))))
 
    `(web-mode-html-tag-bracket-face
      ((,monokai-class (:foreground ,monokai-gray))
