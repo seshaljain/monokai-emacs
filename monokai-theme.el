@@ -5753,8 +5753,8 @@ Also affects 'linum-mode' background."
       (,monokai-256-class (:foreground ,monokai-256-red))))
 
    `(web-mode-html-tag-bracket-face
-     ((,monokai-class (:foreground ,monokai-gray))
-      (,monokai-256-class (:foreground ,monokai-256-gray))))
+     ((,monokai-class (:foreground ,monokai-foreground))
+      (,monokai-256-class (:foreground ,monokai-256-foreground))))
 
    `(web-mode-keyword-face
      ((,monokai-class (:foreground ,monokai-red))
